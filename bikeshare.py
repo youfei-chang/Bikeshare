@@ -25,7 +25,7 @@ def get_filters():
     while city !="new york city" and city != "chicago" and city !="all" and city !="washington":
         city=input ("\n Input error, you must enter all, new york city, chicago or washingon.  Try again").lower()
         
-    #get user input for month (all, january, february, ... , june)
+    #get user input for month (all, january, february, ... , june), need error input
     month=input("\n Which month would you like to analyze? ").lower()
 
     #error check
