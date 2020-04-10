@@ -183,7 +183,7 @@ def user_stats(df):
 
     print('\nCalculating User Stats...\n')
 
-    # Display counts of user types
+    # Display counts of user types (counting by the number of rows, there is an unique unkown no for every row)
     print("\n Here is a breakdown of bike user type \n",df.groupby(['User Type'])['unknown_no'].count())
     if df['city'].iloc[0] !='washington':
     #Display counts of gender
