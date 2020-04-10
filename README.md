@@ -1,15 +1,10 @@
 ### Date created
-Include the date you created this project and README file.
-
+April 10, 2020
 ### Project Title
-Replace the Project Title
-
+Github Project
 ### Description
-Describe what your project is about and what it does
-
+Practice with Github
 ### Files used
-Include the files used
-
+bikeshare.py
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+None
