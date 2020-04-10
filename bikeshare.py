@@ -20,11 +20,15 @@ def get_filters():
 
     #get user input for city (chicago, new york city, washington). 
     city=input ("\n Which city would you like to analyze? ").lower()
+
+    #Error check
     while city !="new york city" and city != "chicago" and city !="all" and city !="washington":
         city=input ("\n Input error, you must enter all, new york city, chicago or washingon.  Try again").lower()
         
     #get user input for month (all, january, february, ... , june)
     month=input("\n Which month would you like to analyze? ").lower()
+
+    #error check
     while month not in  ['all','january', 'february', 'march', 'april', 'may', 'june']:
           if month.isdigit():
                 print("\n If you were trying to enter a numerical month, please use the word instead")
@@ -32,6 +36,8 @@ def get_filters():
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     day=input("\n Which day of the week would you like to analyze? ").lower()
+
+    #error check
     while day not in  ['all','monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday','sunday']:
           if day.isdigit():
                 print("\n If you were trying to enter a numerical day, please use the word instead")
